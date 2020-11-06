@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animation.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script>
+		document.onkeydown = function (e) {
+			if (event.keyCode == 123) {
+				return false;
+			}
+			if (
+				e.ctrlKey &&
+				e.shiftKey &&
+				(e.keyCode == "I".charCodeAt(0) || e.keyCode == "i".charCodeAt(0))
+			) {
+				return false;
+			}
+			if (
+				e.ctrlKey &&
+				e.shiftKey &&
+				(e.keyCode == "C".charCodeAt(0) || e.keyCode == "c".charCodeAt(0))
+			) {
+				return false;
+			}
+			if (
+				e.ctrlKey &&
+				e.shiftKey &&
+				(e.keyCode == "J".charCodeAt(0) || e.keyCode == "j".charCodeAt(0))
+			) {
+				return false;
+			}
+			if (
+				e.ctrlKey &&
+				(e.keyCode == "U".charCodeAt(0) || e.keyCode == "u".charCodeAt(0))
+			) {
+				return false;
+			}
+			if (
+				e.ctrlKey &&
+				(e.keyCode == "S".charCodeAt(0) || e.keyCode == "s".charCodeAt(0))
+			) {
+				return false;
+			}
+		};
+	</script>
+  </head>
+  <body class="over-hide" oncontextmenu="return false;">
+    <canvas
+      id="canvas"
+      style="position: fixed; display: block; top: 0; left: 0; z-index: -1"
+    ></canvas>
+    <div class="animation" style="animation-duration: 400ms; opacity: 1">
+      <header class="cd-header">
+        <div class="header-wrapper">
+          <div class="logo-wrap">
+            <a
+              href="index.html"
+              class="hover-target animation-link"
+              style="color: white; font-weight: 999; font-size: 25px"
+            >
+              The Iterators.
+            </a>
+          </div>
+          <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+              <span class="menu-icon__line menu-icon__line-left"></span>
+              <span class="menu-icon__line"></span>
+              <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav">
+        <div class="nav__content">
+          <div class="curent-page-name-shadow">home</div>
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="index.html" class="hover-target animation-link">home</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="pages/aboutus.html" class="hover-target animation-link"
+                >about us</a
+              >
+            </li>
+            <li class="nav__list-item active-nav">
+              <a
+                data-toggle="collapse"
+                href="#collapseSub"
+                class="hover-target"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseSub"
+                >our work</a
+              >
+              <ul class="sub-links collapse" id="collapseSub">
+                <li>
+                  <a
+                    href="pages/projects.html"
+                    class="hover-target animation-link"
+                    >overview</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="pages/project.html"
+                    class="hover-target animation-link"
+                    >project 1</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__list-item">
+              <a href="pages/contact.html" class="hover-target animation-link"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="section full-height over-hide swiper-container z-bigger"
+        id="hero-slider"
+        style="cursor: grab"
+      >
+        <ul class="swiper-wrapper case-study-wrapper">
+          <li class="swiper-slide full-height case-study-name">
+            <a
+              href="index.html"
+              class="hover-target animation-link"
+              style="border: 2px white solid"
+            >
+              <h1>Home</h1>
+            </a>
+          </li>
+          <li class="swiper-slide full-height case-study-name">
+            <a
+              href="pages/aboutus.html"
+              class="hover-target animation-link"
+              style="border: 2px white solid"
+            >
+              <h1>About Us</h1>
+            </a>
+          </li>
+          <li class="swiper-slide full-height case-study-name">
+            <a
+              href="pages/project.html"
+              class="hover-target animation-link"
+              style="border: 2px white solid"
+            >
+              <h1>Our Work</h1>
+            </a>
+          </li>
+          <li class="swiper-slide full-height case-study-name">
+            <a
+              href="pages/contact.html"
+              class="hover-target animation-link"
+              style="border: 2px white solid"
+            >
+              <h1>Contact Us</h1>
+            </a>
+          </li>
+        </ul>
+
+        <div class="swiper-scrollbar hover-target animation-link">
+          <div
+            class="swiper-scrollbar-drag"
+            style="
+              transform: translate3d(664px, 0px, 0px);
+              transition-duration: 0ms;
+              width: 19px;
+            "
+          ></div>
+        </div>
+        <span
+          class="swiper-notification"
+          aria-live="assertive"
+          aria-atomic="true"
+        ></span>
+      </div>
+
+      <u	l class="case-study-images">
+        <li class="">
+          <div
+            class="img-hero-background-over"
+            style="background-image: url('img/1.jpg')"
+          ></div>
+          <h2 class="no-blur-image">Home</h2>
+          <div class="hero-number">01</div>
+          <div class="hero-number-fixed">04</div>
+        </li>
+        <li class="">
+          <div
+            class="img-hero-background-over"
+            style="background-image: url('img/2.jpg')"
+          ></div>
+          <h2 class="no-blur-image">About Us</h2>
+          <div class="hero-number">02</div>
+        </li>
+        <li class="">
+          <div
+            class="img-hero-background-over"
+            style="background-image: url('img/3.jpg')"
+          ></div>
+          <h2 class="no-blur-image">Our Work</h2>
+          <div class="hero-number">03</div>
+        </li>
+        <li class="">
+          <div
+            class="img-hero-background-over"
+            style="background-image: url('img/4.jpg')"
+          ></div>
+          <h2 class="no-blur-image">Contact Us</h2>
+          <div class="hero-number">04</div>
+        </li>
+      </ul>
+
+      <div class="cursor" id="cursor" style="left: 628px; top: 376px"></div>
+      <div class="cursor2" id="cursor2" style="left: 628px; top: 376px"></div>
+	  <div class="cursor3" id="cursor3" style="left: 628px; top: 376px"></div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/graphics.js"></script>
+  </body>
+</html>

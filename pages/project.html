@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/animation.min.css" />
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <script>
+      document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+          return false;
+        }
+        if (
+          e.ctrlKey &&
+          e.shiftKey &&
+          (e.keyCode == "I".charCodeAt(0) || e.keyCode == "i".charCodeAt(0))
+        ) {
+          return false;
+        }
+        if (
+          e.ctrlKey &&
+          e.shiftKey &&
+          (e.keyCode == "C".charCodeAt(0) || e.keyCode == "c".charCodeAt(0))
+        ) {
+          return false;
+        }
+        if (
+          e.ctrlKey &&
+          e.shiftKey &&
+          (e.keyCode == "J".charCodeAt(0) || e.keyCode == "j".charCodeAt(0))
+        ) {
+          return false;
+        }
+        if (
+          e.ctrlKey &&
+          (e.keyCode == "U".charCodeAt(0) || e.keyCode == "u".charCodeAt(0))
+        ) {
+          return false;
+        }
+        if (
+          e.ctrlKey &&
+          (e.keyCode == "S".charCodeAt(0) || e.keyCode == "s".charCodeAt(0))
+        ) {
+          return false;
+        }
+      };
+    </script>
+  </head>
+  <body oncontextmenu="return false;">
+    <canvas
+      id="canvas"
+      style="position: fixed; display: block; top: 0; left: 0; z-index: -1"
+    ></canvas>
+
+    <div class="animation">
+      <header class="cd-header cursor-show">
+        <div class="header-wrapper">
+          <div class="logo-wrap">
+            <a
+              href="../index.html"
+              class="hover-target animation-link"
+              style="color: white; font-weight: 999; font-size: 25px"
+            >
+              The Iterators.
+            </a>
+          </div>
+          <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+              <span class="menu-icon__line menu-icon__line-left"></span>
+              <span class="menu-icon__line"></span>
+              <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav cursor-show">
+        <div class="nav__content">
+          <div class="curent-page-name-shadow">project</div>
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="../index.html" class="hover-target animation-link"
+                >home</a
+              >
+            </li>
+            <li class="nav__list-item">
+              <a href="aboutus.html" class="hover-target animation-link"
+                >about us</a
+              >
+            </li>
+            <li class="nav__list-item active-nav">
+              <a
+                data-toggle="collapse"
+                href="#collapseSub"
+                class="hover-target"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseSub"
+                >our work</a
+              >
+              <ul class="sub-links collapse" id="collapseSub">
+                <li>
+                  <a href="projects.html" class="hover-target animation-link"
+                    >overview</a
+                  >
+                </li>
+                <li class="active-nav">
+                  <a href="project.html" class="hover-target animation-link"
+                    >project 1</a
+                  >
+                </li>
+                <li>
+                  <a href="project.html" class="hover-target animation-link"
+                    >project 2</a
+                  >
+                </li>
+                <li>
+                  <a href="../index.html" class="hover-target animation-link"
+                    >project 3</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__list-item">
+              <a href="contact.html" class="hover-target animation-link"
+                >contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="shadow-title parallax-top-shadow">The Battle</div>
+
+      <div class="section padding-page-top padding-bottom over-hide z-bigger">
+        <div class="container z-bigger">
+          <div class="row page-title px-5 px-xl-2">
+            <div class="col-12 parallax-fade-top">
+              <h1>The Iterators Company Website</h1>
+            </div>
+            <div class="offset-1 col-11 parallax-fade-top mt-2 mt-sm-3">
+              <p>information, content etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section padding-bottom-big over-hide z-bigger">
+        <div class="container">
+          <div class="row px-5 px-xl-2 justify-content-center">
+            <div class="col-12 mb-5">
+              <div class="img-wrap">
+                <img src="../img/1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-8 mb-5 text-center"></div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row px-5 px-xl-2 px-xl-0">
+            <div class="col-xl-6 px-xl-0 order-first order-xl-last">
+              <div class="img-wrap">
+                <img src="../img/2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-to-top hover-target"></div>
+
+      <div class="cursor" id="cursor"></div>
+      <div class="cursor2" id="cursor2"></div>
+      <div class="cursor3" id="cursor3"></div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/graphics.js"></script>
+  </body>
+</html>
